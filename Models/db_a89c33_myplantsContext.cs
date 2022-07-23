@@ -6,13 +6,13 @@ using Microsoft.EntityFrameworkCore.Metadata;
 
 namespace apiWebFlutter.Models
 {
-    public partial class MyPlantsContext : DbContext
+    public partial class db_a89c33_myplantsContext : DbContext
     {
-        public MyPlantsContext()
+        public db_a89c33_myplantsContext()
         {
         }
 
-        public MyPlantsContext(DbContextOptions<MyPlantsContext> options)
+        public db_a89c33_myplantsContext(DbContextOptions<db_a89c33_myplantsContext> options)
             : base(options)
         {
         }
@@ -25,7 +25,7 @@ namespace apiWebFlutter.Models
             if (!optionsBuilder.IsConfigured)
             {
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-                optionsBuilder.UseSqlServer("Server=DESKTOP-MBU326K\\SQLEXPRESS;Database=MyPlants;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=SQL8002.site4now.net;Database=db_a89c33_myplants;User ID=db_a89c33_myplants_admin;Password=DATa2022;Integrated Security=False;Trusted_Connection=False;");
             }
         }
 

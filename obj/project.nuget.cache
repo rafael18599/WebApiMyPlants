@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZUroe+BthqPcRiZWQgQYPI1KvFXpkOsu8NJZOLrQmRdyQeshAdYT48o0B5zyBdicdOTrKVbjzL37VdolSHw+ZQ==",
+  "dgSpecHash": "AyAkUWPWW/iraQOcHDjDf2VjeFz1pOaZJENUnW7O6EOXp8UD/paa9/vVj2yb78tCdQJX5R1au3U/yMrr1D/z+A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\RAFAEL\\source\\repos\\apiWebFlutter\\apiWebFlutter.csproj",
+  "projectFilePath": "C:\\Users\\RAFAEL\\Desktop\\PLAnTAS\\WebApiMyPlants\\apiWebFlutter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RAFAEL\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\RAFAEL\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

@@ -62,7 +62,7 @@ namespace apiWebFlutter.Controllers
             {
                 return BadRequest(ModelState);
             }
-            return Ok(userfound);
+            return Ok(userfound.FirstOrDefault());
 
         }
         [HttpPost("editar")]

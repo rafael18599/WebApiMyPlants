@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RAFAEL\\source\\repos\\apiWebFlutter\\apiWebFlutter.csproj": {}
+    "C:\\Users\\RAFAEL\\Desktop\\PLAnTAS\\WebApiMyPlants\\apiWebFlutter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RAFAEL\\source\\repos\\apiWebFlutter\\apiWebFlutter.csproj": {
+    "C:\\Users\\RAFAEL\\Desktop\\PLAnTAS\\WebApiMyPlants\\apiWebFlutter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RAFAEL\\source\\repos\\apiWebFlutter\\apiWebFlutter.csproj",
+        "projectUniqueName": "C:\\Users\\RAFAEL\\Desktop\\PLAnTAS\\WebApiMyPlants\\apiWebFlutter.csproj",
         "projectName": "apiWebFlutter",
-        "projectPath": "C:\\Users\\RAFAEL\\source\\repos\\apiWebFlutter\\apiWebFlutter.csproj",
+        "projectPath": "C:\\Users\\RAFAEL\\Desktop\\PLAnTAS\\WebApiMyPlants\\apiWebFlutter.csproj",
         "packagesPath": "C:\\Users\\RAFAEL\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RAFAEL\\source\\repos\\apiWebFlutter\\obj\\",
+        "outputPath": "C:\\Users\\RAFAEL\\Desktop\\PLAnTAS\\WebApiMyPlants\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\RAFAEL\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -73,7 +73,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
