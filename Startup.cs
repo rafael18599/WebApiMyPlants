@@ -35,7 +35,7 @@ namespace apiWebFlutter
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "apiWebFlutter", Version = "v1" });
                 c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
             });
-            services.AddDbContext<MyPlantsContext>(options =>
+            services.AddDbContext<db_a89c33_myplantsContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("conexion"));
             });

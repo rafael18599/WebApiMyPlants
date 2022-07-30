@@ -33,7 +33,7 @@ namespace apiWebFlutter.Models
         {
             modelBuilder.Entity<Plantum>(entity =>
             {
-                entity.HasNoKey();
+                entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.Descripcion)
                     .IsRequired()
@@ -47,9 +47,7 @@ namespace apiWebFlutter.Models
                     .IsUnicode(false)
                     .HasColumnName("estado_planta");
 
-                entity.Property(e => e.Id)
-                    .ValueGeneratedOnAdd()
-                    .HasColumnName("id");
+                entity.Property(e => e.IdUsers).HasColumnName("idUsers");
 
                 entity.Property(e => e.Recomendacion)
                     .IsRequired()
@@ -62,6 +60,12 @@ namespace apiWebFlutter.Models
                     .HasMaxLength(50)
                     .IsUnicode(false)
                     .HasColumnName("ruta_imagen");
+
+                entity.HasOne(d => d.IdUsersNavigation)
+                    .WithMany(p => p.Planta)
+                    .HasForeignKey(d => d.IdUsers)
+                    .OnDelete(DeleteBehavior.ClientSetNull)
+                    .HasConstraintName("FK__Planta__idUsers__398D8EEE");
             });
 
             modelBuilder.Entity<Usuario>(entity =>

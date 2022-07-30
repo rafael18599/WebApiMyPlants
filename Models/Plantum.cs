@@ -12,5 +12,8 @@ namespace apiWebFlutter.Models
         public string Descripcion { get; set; }
         public string EstadoPlanta { get; set; }
         public string Recomendacion { get; set; }
+        public int IdUsers { get; set; }
+
+        public virtual Usuario IdUsersNavigation { get; set; }
     }
 }

@@ -12,9 +12,9 @@ namespace apiWebFlutter.Controllers
     [ApiController]
     public class PlantaController : ControllerBase
     {
-        private readonly MyPlantsContext _db;
+        private readonly db_a89c33_myplantsContext _db;
 
-        public PlantaController(MyPlantsContext db)
+        public PlantaController(db_a89c33_myplantsContext db)
         {
             _db = db;
         }
@@ -42,6 +42,23 @@ namespace apiWebFlutter.Controllers
                 return BadRequest(ModelState);
             }
             return Ok(PlantFound.FirstOrDefault());
+
+        }
+
+        [HttpPost("registro")]
+        public async Task<IActionResult> RegistrarPlanta([FromBody] Plantum planta)
+        {
+            if (planta == null)
+            {
+                return BadRequest(ModelState);
+            }
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            await _db.AddAsync(planta);
+            await _db.SaveChangesAsync();
+            return Ok();
 
         }
     }

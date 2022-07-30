@@ -11,9 +11,9 @@ namespace apiWebFlutter.Controllers
     [ApiController]
     public class UsuarioController : ControllerBase
     {
-        private readonly MyPlantsContext _db;
+        private readonly db_a89c33_myplantsContext _db;
 
-        public UsuarioController(MyPlantsContext db)
+        public UsuarioController(db_a89c33_myplantsContext db)
         {
             _db = db;
         }
@@ -23,6 +23,19 @@ namespace apiWebFlutter.Controllers
             var lista = await _db.Usuarios.ToListAsync();
 
             return Ok(lista);
+        }
+
+        [HttpGet("/{email}")]
+        public async Task<IActionResult> GetUsuarioId(string email)
+        {
+            Usuario usuario = new Usuario();
+            usuario.Email = email;
+            var validar = await _db.Usuarios.Where(x => x.Email == usuario.Email).ToListAsync();
+            if (validar.Count() > 0)
+            {
+                return Ok(validar.FirstOrDefault().Id);
+            }          
+            return BadRequest(ModelState);
         }
 
         [HttpPost("registro")]
