@@ -28,7 +28,7 @@ namespace apiWebFlutter
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -39,6 +39,7 @@ namespace apiWebFlutter
             {
                 options.UseSqlServer(Configuration.GetConnectionString("conexion"));
             });
+            services.AddCoreAdmin();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

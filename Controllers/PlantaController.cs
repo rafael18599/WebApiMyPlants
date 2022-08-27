@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
+using apiWebFlutter.mappings;
 
 
 namespace apiWebFlutter.Controllers
@@ -46,7 +47,7 @@ namespace apiWebFlutter.Controllers
         }
 
         [HttpPost("registro")]
-        public async Task<IActionResult> RegistrarPlanta([FromBody] Plantum planta)
+        public async Task<IActionResult> RegistrarPlanta([FromBody] plantaDTO planta)
         {
             if (planta == null)
             {
@@ -56,7 +57,7 @@ namespace apiWebFlutter.Controllers
             {
                 return BadRequest(ModelState);
             }
-            await _db.AddAsync(planta);
+            await _db.AddAsync(planta.ToDatabase());
             await _db.SaveChangesAsync();
             return Ok();
 

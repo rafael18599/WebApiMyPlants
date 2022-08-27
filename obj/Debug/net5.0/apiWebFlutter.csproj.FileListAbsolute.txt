@@ -114,3 +114,15 @@ C:\Users\RAFAEL\Desktop\PLAnTAS\WebApiMyPlants\obj\Debug\net5.0\refint\apiWebFlu
 C:\Users\RAFAEL\Desktop\PLAnTAS\WebApiMyPlants\obj\Debug\net5.0\apiWebFlutter.pdb
 C:\Users\RAFAEL\Desktop\PLAnTAS\WebApiMyPlants\obj\Debug\net5.0\apiWebFlutter.genruntimeconfig.cache
 C:\Users\RAFAEL\Desktop\PLAnTAS\WebApiMyPlants\obj\Debug\net5.0\ref\apiWebFlutter.dll
+C:\Users\RAFAEL\Desktop\PLAnTAS\WebApiMyPlants\bin\Debug\net5.0\apiWebFlutter.StaticWebAssets.xml
+C:\Users\RAFAEL\Desktop\PLAnTAS\WebApiMyPlants\bin\Debug\net5.0\DotNetEd.CoreAdmin.Views.dll
+C:\Users\RAFAEL\Desktop\PLAnTAS\WebApiMyPlants\bin\Debug\net5.0\DotNetEd.CoreAdmin.dll
+C:\Users\RAFAEL\Desktop\PLAnTAS\WebApiMyPlants\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\RAFAEL\Desktop\PLAnTAS\WebApiMyPlants\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Host.dll
+C:\Users\RAFAEL\Desktop\PLAnTAS\WebApiMyPlants\bin\Debug\net5.0\Microsoft.CodeAnalysis.dll
+C:\Users\RAFAEL\Desktop\PLAnTAS\WebApiMyPlants\bin\Debug\net5.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\RAFAEL\Desktop\PLAnTAS\WebApiMyPlants\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\RAFAEL\Desktop\PLAnTAS\WebApiMyPlants\bin\Debug\net5.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\RAFAEL\Desktop\PLAnTAS\WebApiMyPlants\bin\Debug\net5.0\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Users\RAFAEL\Desktop\PLAnTAS\WebApiMyPlants\bin\Debug\net5.0\Mvc.Grid.Core.dll
+C:\Users\RAFAEL\Desktop\PLAnTAS\WebApiMyPlants\obj\Debug\net5.0\staticwebassets\apiWebFlutter.StaticWebAssets.xml
